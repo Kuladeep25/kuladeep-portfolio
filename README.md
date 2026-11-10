@@ -1,162 +1,91 @@
-# Kuladeep Unumudi — Interactive Portfolio
+# Kuladeep Unumudi | Interactive Portfolio
 
-An interactive personal portfolio built to showcase my professional journey, technical skills, projects, education and experience.
+🌐 **Live Portfolio: [https://kuladeep-portfolio-pages.kuladeep2544.workers.dev/](https://kuladeep-portfolio-pages.kuladeep2544.workers.dev/)**
 
-The portfolio combines modern web technologies, animated transitions and an interactive particle portrait to present my journey from India to Germany.
+An interactive personal portfolio showcasing my professional journey, technical skills, education, experience, projects and leadership activities.
 
-## Features
+Built with React, Three.js and Framer Motion, featuring an interactive particle portrait, animations and a visual journey from India to Germany.
 
-- Interactive portfolio chapters with animated transitions.
-- 3D-inspired visual experience and navigation.
-- Particle portrait generated from a personal transparent image.
-- Pointer-controlled movement and parallax effects.
-- About, Experience, Leadership, Projects, Skills and Journey sections.
+## ✨ Features
+
+- Interactive portfolio with animated navigation.
+- 3D-inspired visual experience and particle portrait.
+- Interactive animations, pointer movement and parallax effects.
+- Dedicated sections for About, Experience, Projects, Skills, Education and Leadership.
 - Responsive design for desktop and mobile.
 - Sky-blue, white and deep-navy visual theme.
-- Keyboard-accessible navigation and reduced-motion support.
 
-## Technologies Used
+## 🛠️ Technologies
 
-- **React** — User interface
-- **JavaScript** — Application logic
-- **Three.js** — 3D graphics and particle effects
-- **Framer Motion** — Animations and transitions
-- **HTML5** — Page structure
-- **CSS3** — Styling and responsive layouts
-- **Vite** — Development server and build tool
+- React and JavaScript
+- Three.js
+- Framer Motion
+- HTML5 and CSS3
+- Vite
 
-## Project Structure
+## 🚀 Run Locally
 
-```text
-kuladeep-portfolio/
-│
-├── public/
-│   └── images/
-│       └── portrait-cutout.png
-│
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── App.jsx
-│   ├── ParticlePortrait.jsx
-│   ├── styles.css
-│   └── main.jsx
-│
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── .gitignore
-└── README.md
-```
+**Prerequisites:** Node.js and npm.
 
-*The structure above illustrates the main project files. Individual folders may differ depending on the current implementation.*
+1. Clone the repository:
 
-## Getting Started
+   ```bash
+   git clone https://github.com/Kuladeep25/kuladeep-portfolio.git
+   ```
 
-Follow these steps to run the portfolio on your local machine.
+2. Navigate to the project:
 
-### Prerequisites
+   ```bash
+   cd kuladeep-portfolio
+   ```
 
-Install the following:
+3. Install dependencies:
 
-- [Node.js](https://nodejs.org/) (LTS version recommended)
-- npm (included with Node.js)
-- [Git](https://git-scm.com/)
+   ```bash
+   npm install
+   ```
 
-### Installation
+4. Start the development server:
 
-**1. Clone the repository**
+   ```bash
+   npm run dev
+   ```
 
-```bash
-git clone https://github.com/Kuladeep25/kuladeep-portfolio.git
-```
+5. Open `http://localhost:5173/` in your browser.
 
-**2. Navigate to the project folder**
-
-```bash
-cd kuladeep-portfolio
-```
-
-**3. Install dependencies**
-
-```bash
-npm install
-```
-
-**4. Start the development server**
-
-```bash
-npm run dev
-```
-
-**5. Open the portfolio**
-
-Visit the local URL displayed in your terminal. Usually:
-
-http://localhost:5173/
-
-### Production Build
-
-To create an optimised production build, run:
+To create a production build:
 
 ```bash
 npm run build
 ```
 
-The generated production files will be available in the `dist/` directory.
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## Personal Journey
-
-The portfolio presents my journey through education, professional experience and international learning:
-
-- **India:** Bachelor's degree in Electronics and Communication Engineering at Sreenidhi Institute of Science and Technology.
-- **Early Experience:** Web Development Internship at YHills.
-- **Professional Experience:** Salesforce internship and Programmer Analyst experience at Cognizant Technology Solutions.
-- **Germany:** Master's studies in Information Systems at FH Aachen University of Applied Sciences.
-- **Current Learning:** Software development, artificial intelligence, data and digital transformation.
-
-The India-to-Germany transition is represented as a visual part of the personal journey.
-
-## Featured Work
-
-Some of the projects and research featured in the portfolio include:
+## 💼 Featured Projects
 
 | Project | Description |
 |---|---|
 | MigrationBOT | Salesforce data migration using Python and Simple-Salesforce |
 | VitaSync | AI-powered healthcare chatbot – ongoing academic project |
 | NOVA Store | Footwear e-commerce and system integration project |
-| AI@Sales | Research on perceived authenticity in AI-mediated social selling |
+| AI@Sales | Research on AI-mediated social selling |
 | SmartVend | Vending machine controller and requirements engineering |
 | DTM Case Study | Business–IT alignment and digital transformation |
-| Statistics & Data Science with R | Upcoming academic project |
 
-Project descriptions and implementation statuses are presented in the portfolio.
+## 🎓 About Me
 
-## Customisation
+- **Master's:** Information Systems, FH Aachen University of Applied Sciences, Germany.
+- **Bachelor's:** Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology, India.
+- **Professional Experience:** Programmer Analyst at Cognizant Technology Solutions.
+- **Technical Interests:** Salesforce, Python, Web Development, Artificial Intelligence, Data and Digital Transformation.
 
-- **Portrait:** The particle portrait uses `public/images/portrait-cutout.png`.
-- **Profile content:** Update the relevant content in the React application files.
-- **Visual theme:** Modify the CSS styles to customise colours, typography and layouts.
-- **Animations:** Adjust the animation settings and transitions in the relevant components.
+## 📬 Connect With Me
 
-## Connect With Me
-
-**Kuladeep Unumudi**
-
+- **Portfolio:** [Visit My Website](https://kuladeep-portfolio-pages.kuladeep2544.workers.dev/)
 - **GitHub:** [github.com/Kuladeep25](https://github.com/Kuladeep25)
-- **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/kuladeep-u-72500526a/)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/kuladeep-u-72500526a/)
 - **Email:** [kuladeep2544@gmail.com](mailto:kuladeep2544@gmail.com)
 
 ---
 
 <p align="center">
-  <strong>Curious by nature. Driven by technology. Always learning.</strong>
+  **Curious by nature. Driven by technology. Always learning.**
 </p>
