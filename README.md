@@ -1,85 +1,31 @@
-# Kuladeep's Personal Portfolio
+# Kuladeep Unumudi — Interactive Portfolio
 
-A personal portfolio website built to showcase my professional journey, technical skills, projects, education and experience.
-
-The website presents my journey from India to Germany, combining an interactive visual experience with information about my work and learning.
-
-## Features
-
-- Interactive portfolio with animated transitions.
-- Personal introduction and professional experience.
-- Education and leadership activities.
-- Project showcase.
-- Technical skills and technologies.
-- Contact and social profile links.
-- Responsive design.
-
-## Technologies Used
-
-- React
-- JavaScript
-- Three.js
-- Framer Motion
-- HTML
-- CSS
-- Vite
-
-## Getting Started
-
-To run the project locally:
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/Kuladeep25/kuladeep-portfolio.git
-```
-
-**2. Open the project folder**
-
-```bash
-cd kuladeep-portfolio
-```
-
-**3. Install dependencies**
+## Run locally
+1. Extract the ZIP.
+2. Open the inner `kuladeep-particle-portfolio` folder in VS Code.
+3. Open the terminal in that folder (the same folder that contains `package.json`).
+4. Run:
 
 ```bash
 npm install
-```
-
-**4. Start the development server**
-
-```bash
 npm run dev
 ```
 
-Open the local URL displayed in your terminal.
+5. Open the local URL printed by Vite (usually http://localhost:5173).
 
-## Project Structure
+## Features
+- Click-to-switch portfolio chapters (no long scrolling page).
+- Animated phase transitions using Framer Motion.
+- Interactive 3D particle portrait sampled from `public/images/portrait-cutout.png`.
+- Pointer-controlled parallax for the particle portrait.
+- Responsive layouts, keyboard-accessible navigation buttons and reduced-motion support.
+- Sky-blue, white and deep-navy visual system.
 
-```text
-kuladeep-portfolio/
-├── public/
-│   └── images/
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── package.json
-└── vite.config.js
-```
+## Notes
+- The particle image uses the transparent PNG cutout. Replace that file only if you want to change the portrait.
+- Project statuses distinguish ongoing, academic, research and upcoming work.
+- Update profile links or project details in `src/App.jsx` if needed.
 
-*Note: The structure above is illustrative; adjust it to match the actual folders in the repository.*
 
-## Connect With Me
-
-- **GitHub:** https://github.com/Kuladeep25
-- **LinkedIn:** https://www.linkedin.com/in/kuladeep-u-72500526a/
-- **Email:** kuladeep2544@gmail.com
-
----
-
-Built with curiosity, creativity and a passion for technology.
-
-**Kuladeep Unumudi**
+## Personal journey chapter
+The My Journey chapter presents a factual timeline from B.Tech in India, through early web development and Cognizant experience, to MSc Information Systems at FH Aachen in Germany. The India-to-Germany transition is represented symbolically; no exact flight date or route is asserted.
